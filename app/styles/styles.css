@@ -65,11 +65,17 @@ hr.star-primary:after {
 header {
   text-align: center;
   color: #fff;
-  background: #18bc9c; }
+  min-height: 900px;
+  background: url(../images/accueil.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */ }
 
 header .container {
   padding-top: 100px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  font-family: "Dancing Script"; }
 
 header img {
   display: block;
@@ -113,8 +119,9 @@ header .intro-text .skills {
 
 .navbar {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700; }
+  font-family: "Dancing Script","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 900;
+  font-size: 2rem; }
   .navbar img {
     width: 50%;
     margin-top: 0; }
