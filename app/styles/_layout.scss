@@ -1,7 +1,9 @@
+$navbar-inverse-bg: black;
+$navbar-inverse-link-color: white;
+$navbar-inverse-link-active-color: red;
 
 header {
  text-align: center;
-  color: #fff;
   min-height: 900px;
   background: url(../images/accueil.jpg) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
@@ -21,16 +23,14 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    // text-transform: uppercase;
+    padding-top: 25rem;
+    padding-left: 40rem;
+    font-family: "Dancing Script","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight: 600;
 }
 
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
 
 @media(min-width:768px) {
     header .container {
@@ -39,7 +39,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3em;
     }
 
     header .intro-text .skills {
@@ -73,10 +73,9 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: "Dancing Script","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 900; 
-    font-size: 2rem;
+    font-size: 3rem;
     img {
           width: 50%;
           margin-top: 0;
