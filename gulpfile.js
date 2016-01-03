@@ -14,15 +14,18 @@ gulp.task('lint', function () {
         .pipe(jshint.reporter('default'));
 });
 
-gulp.task('styles', function () {
-    var sass = require('gulp-sass');
 
-    return gulp.src('app/styles/*.scss')
-        .pipe(sass({
-            precision: 10
-        }))
-        .pipe(gulp.dest('app/styles'));
+gulp.task('styles', function () {
+  var compass = require('gulp-compass');
+    return gulp.src('./app/styles/*.scss')
+    .pipe(compass({
+      config_file: './app/config.rb',
+      css: 'app/styles',
+      sass: 'app/styles'
+    }))
+    .pipe(gulp.dest('app/styles'));
 });
+
 
 gulp.task('images', function () {
     var cache = require('gulp-cache'),
