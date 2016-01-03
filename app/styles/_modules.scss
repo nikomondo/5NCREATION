@@ -1,9 +1,10 @@
+$form-group-margin-bottom: 10px;
+
   #bandeau {
     padding: 3rem;
-    background-color: #000000;
     height:11rem;
     p{
-      color: white;
+      color:black;
       font: 400 30px / 1.92px MaiandraGD;
       im {
         color: red;
@@ -20,9 +21,7 @@
   text-align: center;
   background: #fff;
   text-align: center;
-  .colonne {
-    min-height: 600px;
-  }
+  height: 100%;
   h2 {
     font-weight: bold;
     font-style: italic;
@@ -38,11 +37,38 @@
   .gris {
     background-color: #eee;
   }
+
+  #euro {
+  width: 30%;
+  }
+  .service-item {
+    border: 3px solid  red;
+    margin: 3rem;
+    padding-top: 1rem;
+
+  }
   img {
-    padding : 5rem  2rem;
+    // padding : 5rem  2rem;
+    width : 40%;
   }
 }
 
+
+@media(max-width:767px) {
+  .service-item {
+     // width: 30%;
+    height: 80%;
+  }
+}
+
+@media(max-width:767px) {
+  .service-item {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    margin: 0 0 15px;
+  }
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -156,7 +182,7 @@
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
@@ -184,7 +210,8 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    // background-color: #2c3e50;
+    background-color: black;
 }
 
 footer .footer-col {
@@ -193,7 +220,8 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    // background-color: #233140;
+    background-color: darkgrey;
 }
 
 .btn-social {
@@ -296,4 +324,18 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+
+#contact, #portfolio {
+h2 {
+padding-bottom: 2rem;  
+    font-family: "Dancing Script","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+    font-family: "Dancing Script","Helvetica Neue",Helvetica,Arial,sans-serif;
+padding-bottom: 5rem;  
+font-size: 5rem;
+font-weight: 900;
+}
 }

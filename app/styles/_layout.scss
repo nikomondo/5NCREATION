@@ -24,7 +24,7 @@ header img {
 header .intro-text .name {
     display: block;
     // text-transform: uppercase;
-    padding-top: 25rem;
+    padding-top: 22rem;
     padding-left: 40rem;
     font-family: "Dancing Script","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
@@ -126,6 +126,12 @@ section.success a.active {
     section {
         padding: 75px 0;
     }
+    .navbar {
+       img {
+          width: 30%;
+          margin-top: 0;
+        }
+}
 
     section.first {
         padding-top: 75px;
