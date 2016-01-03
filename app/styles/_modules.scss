@@ -16,10 +16,10 @@ $form-group-margin-bottom: 10px;
 // SECTION DES SERVICES
 
 .services-section {
-  height: 100%;
-  padding-top: 50px;
-  text-align: center;
-  background: #fff;
+  // height: 100%;
+  // padding-top: 50px;
+  // text-align: center;
+  // background: #fff;
   text-align: center;
   height: 100%;
   h2 {
@@ -42,15 +42,11 @@ $form-group-margin-bottom: 10px;
   width: 30%;
   }
   .service-item {
-    border: 3px solid  red;
-    margin: 3rem;
-    padding-top: 1rem;
-
-  }
+    padding: 1rem;
   img {
-    // padding : 5rem  2rem;
-    width : 40%;
+    width : 110%;
   }
+}
 }
 
 
