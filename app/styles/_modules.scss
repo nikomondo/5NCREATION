@@ -29,6 +29,7 @@ $form-group-margin-bottom: 10px;
     padding: 2rem;
     font-size: 1.5rem;
     font-family: LucidaFax;
+    @include transform(rotate(35deg));
   }
   .gris {
     background-color: #eee;
@@ -45,10 +46,11 @@ $form-group-margin-bottom: 10px;
   }
 
   .stretch-container {
-    border: 1px solid #999999;
-    width: 350px;
-    height: 350px;
+    // border: 1px solid #999999;
+    width: 335px;
+    height: 335px;
     position: relative;
+    margin: 1em;
     @include inline-block;
   }
 

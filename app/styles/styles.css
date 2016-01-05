@@ -287,6 +287,10 @@ section.success a.active {
   padding: 2rem;
   font-size: 1.5rem;
   font-family: LucidaFax;
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
 }
 .services-section .gris {
   background-color: #eee;
@@ -301,10 +305,10 @@ section.success a.active {
   width: 110%;
 }
 .services-section .stretch-container {
-  border: 1px solid #999999;
-  width: 350px;
-  height: 350px;
+  width: 335px;
+  height: 335px;
   position: relative;
+  margin: 1em;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
