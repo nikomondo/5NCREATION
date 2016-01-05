@@ -15,7 +15,7 @@ $form-group-margin-bottom: 10px;
 
 // SECTION DES SERVICES
 
-.services-section {
+.services-section  {
   text-align: center;
   height: 100%;
   h2 {
@@ -31,7 +31,6 @@ $form-group-margin-bottom: 10px;
     // font-family: LucidaFax;
     font: 400 18px  MaiandraGD;
     text-align: center;
-    // @include transform(rotate(35deg));
   }
   .gris {
     background-color: #eee;
@@ -60,9 +59,6 @@ $form-group-margin-bottom: 10px;
     border: 4px solid $stretch-color;
     @include border-radius(8px);
     display: block;
-    // background-color: darken($stretch-color, 30%);
-    text-align: center;
-    vertical-align: middle;
   }
 
   .stretch-full {
@@ -70,7 +66,82 @@ $form-group-margin-bottom: 10px;
     @include stretch;
   }
 
+  .rotate {
+     @include transform(rotate(-90deg));
+  }
+
 }
+
+// SECTION DES offres
+
+.offres-section  {
+  text-align: center;
+  height: 100%;
+  h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    font-family: LucidaFax;
+  }
+  p {
+    padding: 2rem;
+    font-size: 1.5rem;
+    font: 400 18px  MaiandraGD;
+  }
+  .gris {
+    background-color: #eee;
+  }
+
+  #euro {
+    width: 30%;
+  }
+  .service-item {
+    padding: 1rem;
+    img {
+      width : 110%;
+    }
+  }
+
+  .stretch-container {
+    // border: 4px solid blue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0.7em;
+    @include inline-block;
+  }
+
+  %stretched {
+    @include border-radius(8px);
+    display: block;
+  }
+
+  .stretch-offset {
+    @extend %stretched;
+   $stretch-color: red;
+    border: 4px solid $stretch-color;
+     @include stretch(1em, 1em, 1em, 1em);
+  }
+
+  .rotate {
+    font-family: LucidaFax;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    display:block ;
+     @include transform(rotate(-90deg) translate(-68px, -156px));
+  }
+   .translate {
+    font-family: LucidaFax;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+     @include transform(translate(-103px, -128px));
+  }
+
+}
+
 
 
 @media(max-width:767px) {

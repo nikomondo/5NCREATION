@@ -312,14 +312,12 @@ section.success a.active {
   *zoom: 1;
   *display: inline;
 }
-.services-section .stretch-full {
+.services-section .stretch-full, .services-section .offres-section .stretch-offset, .offres-section .services-section .stretch-offset {
   border: 4px solid red;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
   display: block;
-  text-align: center;
-  vertical-align: middle;
 }
 .services-section .stretch-full {
   position: absolute;
@@ -327,6 +325,87 @@ section.success a.active {
   bottom: 0;
   left: 0;
   right: 0;
+}
+.services-section .rotate {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.offres-section {
+  text-align: center;
+  height: 100%;
+}
+.offres-section h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  font-family: LucidaFax;
+}
+.offres-section p {
+  padding: 2rem;
+  font-size: 1.5rem;
+  font: 400 18px  MaiandraGD;
+}
+.offres-section .gris {
+  background-color: #eee;
+}
+.offres-section #euro {
+  width: 30%;
+}
+.offres-section .service-item {
+  padding: 1rem;
+}
+.offres-section .service-item img {
+  width: 110%;
+}
+.offres-section .stretch-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 0.7em;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+.offres-section .services-section .stretch-full, .services-section .offres-section .stretch-full, .offres-section .stretch-offset {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+}
+.offres-section .stretch-offset {
+  border: 4px solid red;
+  position: absolute;
+  top: 1em;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+}
+.offres-section .rotate {
+  font-family: LucidaFax;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  display: block;
+  -moz-transform: rotate(-90deg) translate(-68px, -156px);
+  -ms-transform: rotate(-90deg) translate(-68px, -156px);
+  -webkit-transform: rotate(-90deg) translate(-68px, -156px);
+  transform: rotate(-90deg) translate(-68px, -156px);
+}
+.offres-section .translate {
+  font-family: LucidaFax;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  -moz-transform: translate(-103px, -128px);
+  -ms-transform: translate(-103px, -128px);
+  -webkit-transform: translate(-103px, -128px);
+  transform: translate(-103px, -128px);
 }
 
 @media (max-width: 767px) {
