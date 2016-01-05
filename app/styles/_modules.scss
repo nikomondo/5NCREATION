@@ -46,8 +46,8 @@ $form-group-margin-bottom: 10px;
 
   .stretch-container {
     border: 1px solid #999999;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     position: relative;
     @include inline-block;
   }
@@ -57,7 +57,7 @@ $form-group-margin-bottom: 10px;
     border: 3px solid $stretch-color;
     @include border-radius(8px);
     display: block;
-    // background-color: darken($stretch-color, 30%);
+    background-color: darken($stretch-color, 30%);
     color: white;
     text-align: center;
     vertical-align: middle;

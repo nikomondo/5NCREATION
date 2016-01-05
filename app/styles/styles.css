@@ -302,8 +302,8 @@ section.success a.active {
 }
 .services-section .stretch-container {
   border: 1px solid #999999;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -317,6 +317,7 @@ section.success a.active {
   -webkit-border-radius: 8px;
   border-radius: 8px;
   display: block;
+  background-color: #192433;
   color: white;
   text-align: center;
   vertical-align: middle;
