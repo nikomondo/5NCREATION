@@ -99,8 +99,9 @@ em {
     border: 4px solid $stretch-color;
     @include stretch(1em, 1em, 1em, 1em);
     p{
-      padding: 1rem;
+      padding: 0.8rem;
       text-align: center;
+      font-size: 2rem;
     }
   }
 

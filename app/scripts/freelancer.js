@@ -36,12 +36,13 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
 $(document).ready(function () {
         $('ul.nav > li').click(function (e) {
             e.preventDefault();
             $('ul.nav > li').removeClass('active');
             $(this).addClass('active');                
+            new WOW().init();
         });            
 
-        new WOW().init();
     });

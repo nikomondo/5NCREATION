@@ -365,8 +365,9 @@ em {
   right: 1em;
 }
 .offres-section .stretch-offset p {
-  padding: 1rem;
+  padding: 0.8rem;
   text-align: center;
+  font-size: 2rem;
 }
 .offres-section .rotate {
   font-family: LucidaFax;
