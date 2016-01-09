@@ -3,8 +3,11 @@
 @import "compass/layout/stretching";
 @import "compass/utilities";
 @import "compass/css3";
+@import "variables";
+@import "fonts";
 @import 'bases';
 @import 'layout';
 @import 'modules';
 @import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+@import '../bower_components/animate-sass/animate';
 

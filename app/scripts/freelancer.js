@@ -42,4 +42,6 @@ $(document).ready(function () {
             $('ul.nav > li').removeClass('active');
             $(this).addClass('active');                
         });            
+
+        new WOW().init();
     });

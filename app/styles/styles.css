@@ -55,6 +55,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/*
+@font-face{
+    font-family : "maFonte";
+
+    src : url('maFonte.eot'); // Pour IE9 Compat mode 
+    src : url('maFonte.eot?') format('eot),
+          url('maFonte.woff') format('woff'),
+          url('maFonte.svg#abcd') format('svg'),
+          url('maFonte.ttf') format('truetype');
+}
+
+
+*/
 body {
   overflow-x: hidden;
 }
@@ -260,47 +273,65 @@ section.success a.active {
     padding-top: 75px;
   }
 }
+im {
+  color: red;
+}
+
+em {
+  font-weight: 600;
+}
+
 #bandeau {
-  padding: 3rem;
+  padding: 1rem;
+  margin: 0.5em;
   height: 11rem;
 }
 #bandeau p {
   color: black;
   font: 400 30px / 1.92px MaiandraGD;
 }
-#bandeau p im {
-  color: red;
-}
 
-.services-section {
+.services-section, .offres-section {
   text-align: center;
   height: 100%;
 }
-.services-section h2 {
+.services-section h2, .offres-section h2 {
   font-weight: bold;
   font-style: italic;
   font-size: 2rem;
   padding-bottom: 3rem;
   font-family: LucidaFax;
 }
-.services-section p {
+.services-section p, .offres-section p {
   padding: 2rem;
   font-size: 1.5rem;
   font: 400 18px  MaiandraGD;
   text-align: center;
 }
-.services-section .gris {
+.services-section .gris, .offres-section .gris {
   background-color: #eee;
 }
-.services-section #euro {
-  width: 30%;
-}
-.services-section .service-item {
+.services-section .service-item, .offres-section .service-item {
   padding: 1rem;
 }
-.services-section .service-item img {
+.services-section .service-item img, .offres-section .service-item img {
   width: 110%;
 }
+.services-section .stretch-full, .offres-section .stretch-full, .offres-section .stretch-offset {
+  border: 4px solid red;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+}
+.services-section .stretch-full, .offres-section .stretch-full {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .services-section .stretch-container {
   width: 360px;
   height: 360px;
@@ -312,73 +343,20 @@ section.success a.active {
   *zoom: 1;
   *display: inline;
 }
-.services-section .stretch-full, .services-section .offres-section .stretch-offset, .offres-section .services-section .stretch-offset {
-  border: 4px solid red;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  display: block;
-}
-.services-section .stretch-full {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.services-section .rotate {
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
 
-.offres-section {
-  text-align: center;
-  height: 100%;
-}
-.offres-section h2 {
-  font-weight: bold;
-  font-style: italic;
-  font-size: 2rem;
-  padding-bottom: 3rem;
-  font-family: LucidaFax;
-}
-.offres-section p {
-  padding: 2rem;
-  font-size: 1.5rem;
-  font: 400 18px  MaiandraGD;
-}
-.offres-section .gris {
-  background-color: #eee;
-}
-.offres-section #euro {
-  width: 30%;
-}
-.offres-section .service-item {
-  padding: 1rem;
-}
-.offres-section .service-item img {
-  width: 110%;
-}
 .offres-section .stretch-container {
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 450px;
   position: relative;
-  margin: 0.7em;
+  margin: 0.8em;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
 }
-.offres-section .services-section .stretch-full, .services-section .offres-section .stretch-full, .offres-section .stretch-offset {
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  display: block;
-}
 .offres-section .stretch-offset {
+  padding-top: 3rem;
   border: 4px solid red;
   position: absolute;
   top: 1em;
@@ -386,26 +364,31 @@ section.success a.active {
   left: 1em;
   right: 1em;
 }
+.offres-section .stretch-offset p {
+  padding: 1rem;
+  text-align: center;
+}
 .offres-section .rotate {
   font-family: LucidaFax;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   font-style: italic;
   display: block;
-  -moz-transform: rotate(-90deg) translate(-68px, -156px);
-  -ms-transform: rotate(-90deg) translate(-68px, -156px);
-  -webkit-transform: rotate(-90deg) translate(-68px, -156px);
-  transform: rotate(-90deg) translate(-68px, -156px);
+  text-align: left;
+  -moz-transform: rotate(-90deg) translate(-28px, -182px);
+  -ms-transform: rotate(-90deg) translate(-28px, -182px);
+  -webkit-transform: rotate(-90deg) translate(-28px, -182px);
+  transform: rotate(-90deg) translate(-28px, -182px);
 }
 .offres-section .translate {
   font-family: LucidaFax;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   font-style: italic;
-  -moz-transform: translate(-103px, -128px);
-  -ms-transform: translate(-103px, -128px);
-  -webkit-transform: translate(-103px, -128px);
-  transform: translate(-103px, -128px);
+  -moz-transform: translate(-127px, -119px);
+  -ms-transform: translate(-127px, -119px);
+  -webkit-transform: translate(-127px, -119px);
+  transform: translate(-127px, -119px);
 }
 
 @media (max-width: 767px) {

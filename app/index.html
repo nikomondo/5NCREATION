@@ -11,6 +11,8 @@
 
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="bower_components/wowjs/css/libs/animate.css">
+    <link href="bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet" >
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
@@ -18,7 +20,6 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/styles.css">
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- endbuild -->
     
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -96,12 +97,12 @@
             <div class="row ">
               <div class="col-lg-12">
                 <div id="bandeau" >
-                  <p class="hidden-xs">Votre site web, avec <im> nous </im> et pour <im> vous </im> </p>
+                  <p class="hidden-xs">Votre site web, avec <im> vous </im> et pour <im> vous </im> </p>
                 </div> 
                 <div class="row ">
                     <ul>
-                      <li class='stretch-container'>
-                        <div class='stretch-full gris'>
+                      <li class='stretch-container wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s'>
+                        <div class='stretch-full gris '>
                           <p>
                           Les technologies innovantes au service de vos idées.
                           </p>
@@ -113,7 +114,7 @@
 
                         </div>
                       </li>
-                      <li class='stretch-container'>
+                      <li class='stretch-container animated fadeIn'>
                         <div class='stretch-full'>
                           <p>Nous créons votre charte graphique.</p>
                           <h2>Un graphisme unique</h2>
@@ -121,7 +122,7 @@
                           <p>Votre logo, votre site, vos flyers, vos cartes de visites reflètent vos valeurs.</p>
                         </div>
                       </li>
-                      <li class='stretch-container'>
+                      <li class='stretch-container animated fadeIn'>
                         <div class='stretch-full gris'>
                           <p>Nos tarifs sont raisonnables. Vous serez surpris.</p>
                           <h2>Des prix attractifs</h2>
@@ -140,28 +141,6 @@
 
     <!-- SECTION offres --> 
     <section id="offres" class="offres-section">
-      <div class="container ">
-        <div class="row ">
-          <div class="col-lg-12">
-            <div id="bandeau" >
-              <p class="hidden-xs">Faites <im>décoller</im> votre activité avec une offre conçue pour <im>vous</im>.</p>
-            </div> 
-            <div class="row ">
-              <div class="col-lg-12">
-                <div class="col-sm-4  col-xs-12 service-item" >
-                  <img src="images/offre-pack-com_05.jpg" alt="offre com" class="images-responsive">
-                </div>
-                  <div class="col-sm-4 col-xs-12 service-item">
-                    <img src="images/offre-business-pack_05.jpg" alt="offre busines" class="images-responsive">
-                  </div>
-                  <div class="col-sm-4 col-xs-12 service-item" >
-                    <img src="images/offre-custom-pack.jpg" alt="offre custom"class="images-responsive" >
-                  </div>
-              </div>
-            </div>
-          </div>
-
-
           <div class="container ">
             <div class="row ">
               <div class="col-lg-12">
@@ -172,20 +151,23 @@
                   <ul>
                  <li class="stretch-container">
                  <p class="rotate">Mon pack'</p>
-                 <p class="translate"> com </p>
+                 <p class="translate">com</p>
                  <div class="stretch-offset">
-                        <p>essai</p> 
+                   <p><em><im>Vous vous lancez? </im></em></p><p>Il vous faut <im>un site vitrine </im>qui vous ressemble à un <em>prix attractif</em>.</p><p>Nous créons votre identité graphique. <im>Logo, site web, carte de visites, flyers</im>. <p>Sur devis. </p><p><em>A partir de 899€.</em></p> 
                       </div>
                     </li>
                     <li class="stretch-container">
-                      <div class="stretch-full">
-                        <p>essai</p> 
+                 <p class="rotate">Mon Business'</p>
+                 <p class="translate">pack</p>
+                 <div class="stretch-offset gris">
+                   <p><em><im>Vous souhaitez vendre en ligne ?</im></em></p><p> <em>Faites décoller votre acitivité !</em></p><p> Nous créons votre <im>site e-business</im> sécurisé.</p> <p>Consultez nous !</p><p>Sur devis. </p><p><em>A partir de 1999 €.</em></p> 
                       </div>
                     </li>
                     <li class="stretch-container">
-                      <div class="stretch-full">
-                        <p>essai</p> 
-                      </div>
+                 <p class="rotate">Mon custom'</p>
+                 <p class="translate">pack</p>
+                 <div class="stretch-offset">
+                   <p><im><em>Vous voulez donner un coup de jeune à votre image sur le web ?</em></im></p> <p>Moderniser votre logo ?</p> <p>Optimiser votrei présence sur les réseaux sociaux ? </p><p><im>Consultez-nous ! </im></p><p>Nous vous enverrons un devis dans les meilleurs délais.</p>                      </div>
                     </li>
 
                   </ul>
@@ -464,11 +446,12 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js"></script>
     <script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+    <script src="bower_components/wowjs/dist/wow.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <!-- <script src="scripts/main.js"></script> -->
      <script src="scripts/classie.js"></script>
     <script src="scripts/cbpAnimatedHeader.js"></script>
 

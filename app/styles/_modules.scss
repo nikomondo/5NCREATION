@@ -1,21 +1,23 @@
-$form-group-margin-bottom: 10px;
+im {
+  color: red;
+}
+
+em {
+  font-weight: 600;
+}
 
 #bandeau {
-  padding: 3rem;
+  padding: 1rem;
+  margin: 0.5em;
   height:11rem;
   p{
     color:black;
     font: 400 30px / 1.92px MaiandraGD;
-    im {
-      color: red;
-    }
   }
 }
+//-------   SERVICES -------- 
 
-
-// SECTION DES SERVICES
-
-.services-section  {
+%services-placeholder  {
   text-align: center;
   height: 100%;
   h2 {
@@ -36,26 +38,14 @@ $form-group-margin-bottom: 10px;
     background-color: #eee;
   }
 
-  #euro {
-    width: 30%;
-  }
   .service-item {
     padding: 1rem;
     img {
       width : 110%;
     }
   }
-
-  .stretch-container {
-    width: 360px;
-    height: 360px;
-    position: relative;
-    margin: 0.7em;
-    @include inline-block;
-  }
-
   %stretched {
-   $stretch-color: red;
+    $stretch-color: red;
     border: 4px solid $stretch-color;
     @include border-radius(8px);
     display: block;
@@ -66,78 +56,69 @@ $form-group-margin-bottom: 10px;
     @include stretch;
   }
 
-  .rotate {
-     @include transform(rotate(-90deg));
-  }
-
 }
 
-// SECTION DES offres
 
-.offres-section  {
-  text-align: center;
-  height: 100%;
-  h2 {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 2rem;
-    padding-bottom: 3rem;
-    font-family: LucidaFax;
-  }
-  p {
-    padding: 2rem;
-    font-size: 1.5rem;
-    font: 400 18px  MaiandraGD;
-  }
-  .gris {
-    background-color: #eee;
-  }
 
-  #euro {
-    width: 30%;
-  }
-  .service-item {
-    padding: 1rem;
-    img {
-      width : 110%;
-    }
-  }
+// SECTION DES SERVICES
+
+.services-section  {
+  @extend %services-placeholder; 
 
   .stretch-container {
-    // border: 4px solid blue;
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 360px;
     position: relative;
     margin: 0.7em;
     @include inline-block;
   }
 
-  %stretched {
-    @include border-radius(8px);
-    display: block;
+
+}
+
+
+// SECTION DES offres
+
+.offres-section  {
+
+  @extend %services-placeholder; 
+
+  .stretch-container {
+    width: 360px;
+    height: 450px;
+    position: relative;
+    margin: 0.8em;
+    @include inline-block;
   }
+
 
   .stretch-offset {
     @extend %stretched;
-   $stretch-color: red;
+    padding-top: 3rem;
+    $stretch-color: red;
     border: 4px solid $stretch-color;
-     @include stretch(1em, 1em, 1em, 1em);
+    @include stretch(1em, 1em, 1em, 1em);
+    p{
+      padding: 1rem;
+      text-align: center;
+    }
   }
 
   .rotate {
     font-family: LucidaFax;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     font-style: italic;
     display:block ;
-     @include transform(rotate(-90deg) translate(-68px, -156px));
+    text-align: left;
+    @include transform(rotate(-90deg) translate(-28px, -182px));
   }
-   .translate {
+  .translate {
     font-family: LucidaFax;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     font-style: italic;
-     @include transform(translate(-103px, -128px));
+    @include transform(translate(-127px, -119px));
   }
 
 }
