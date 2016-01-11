@@ -44,6 +44,11 @@ gulp.task('fonts', function () {
         .pipe(gulp.dest('dist/styles/fonts'));
 });
 
+gulp.task('mail', function () {
+    return gulp.src('app/mail/*')
+        .pipe(gulp.dest('dist/mail/'));
+});
+
 gulp.task('misc', function () {
     return gulp.src([
             'app/*.{ico,png,txt}',
@@ -118,7 +123,7 @@ gulp.task('serve', ['styles', 'connect'], function () {
     gulp.watch('bower.json', ['wiredep']);
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'misc']);
+gulp.task('build', ['lint', 'html', 'images', 'fonts','mail', 'misc']);
 
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
