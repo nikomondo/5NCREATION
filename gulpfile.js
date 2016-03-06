@@ -26,7 +26,7 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('app/styles'));
 });
 
-
+    
 gulp.task('images', function () {
     var cache = require('gulp-cache'),
         imagemin = require('gulp-imagemin');
