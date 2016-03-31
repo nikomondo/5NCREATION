@@ -1,0 +1,793 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"hea",
+				"header	<header>"
+			],
+			[
+				"na",
+				"navigation	(index.html)"
+			],
+			[
+				"fix",
+				"fixNavigation"
+			],
+			[
+				"cla",
+				"class=\"list"
+			],
+			[
+				"scr",
+				"scripts"
+			],
+			[
+				"P",
+				"Person"
+			],
+			[
+				"p",
+				"pour"
+			],
+			[
+				"bla",
+				"black	(activites.html)"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"bio",
+				"biographie"
+			],
+			[
+				"plac",
+				"placeludique@gmail"
+			],
+			[
+				"de",
+				"debut"
+			],
+			[
+				"ac",
+				"activites"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"vert",
+				"vert-anis"
+			],
+			[
+				"c",
+				"caption	Tag"
+			],
+			[
+				"per",
+				"personnage	(main.scss)"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"pale",
+				"placeludique@gmail"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ver",
+				"vert-anis"
+			],
+			[
+				"co",
+				"coi	counter-increment"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"a",
+				"article	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git t",
+				"Git: Show Tags"
+			],
+			[
+				"emmet: w",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"gitq",
+				"Git: Quick Commit"
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
+			[
+				"sass",
+				"Build With: SASS"
+			],
+			[
+				"gul",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"gulp",
+				"Set Syntax: Gulp results"
+			],
+			[
+				"gitbn",
+				"Git: New Branch"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"emmet ",
+				"Emmet: Remove Tag"
+			],
+			[
+				"emmet go",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"vie",
+				"View: Toggle Menu"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Packac",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Sass",
+				"SassBeautify"
+			],
+			[
+				"Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pretif",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"zfgr",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"git bran",
+				"Git: New Branch"
+			],
+			[
+				"paca insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Pac instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Paca ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git stau",
+				"Git: Status"
+			]
+		],
+		"width": 599.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sys",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nico/5NCREATION/app/index.html",
+		"/home/nico/5NCREATION/app/sass/knacss.scss",
+		"/home/nico/5NCREATION/app/sass/_creation.scss",
+		"/home/nico/MENU/index.html",
+		"/home/nico/5NCREATION/gulpfile.babel.js",
+		"/home/nico/5NCREATION/.tmp/scripts/main.js",
+		"/home/nico/5NCREATION/app/scripts/main.js",
+		"/home/nico/5NCREATION/app/service-worker.js",
+		"/home/nico/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/activites.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/index.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/gulpfile.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/main.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_contacts.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/template.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/photo.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/remerciement.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/jeu_et_nous.html",
+		"/home/nico/RAILS/test.rb",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_activites.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_activites.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/contact.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/envoie.php",
+		"/var/www/html/placeludique/envoie.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/main.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/Hover-master/index.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/index2.html",
+		"/home/nico/.config/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+		"/home/nico/RECUP/index.html",
+		"/home/nico/FORM/feedbackform.htm",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/feedbackformprocess.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/node_modules/gulp-util/lib/isNull.js",
+		"/home/nico/FORM/feedbackformprocess.php",
+		"/home/nico/FORM/feedbackformvalidation.js",
+		"/home/nico/FORM/feedbackforminstall.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/photoswipe.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/photos.html",
+		"/home/nico/FOUNDATION/foundation_icons_social/demo.html",
+		"/home/nico/FORM/mail.php",
+		"/home/nico/ESSAIS/test.rb",
+		"/home/nico/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+		"/home/nico/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/nico/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+		"/home/nico/WSK_PLACE_LUDIQUE/.tmp/styles/default-skin/default-skin.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/photos.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/photoswipe-ui-default.min.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/lg-autoplay.min.js",
+		"/home/nico/.config/sublime-text-3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/home/nico/WSK_PLACE_LUDIQUE/.tmp/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/indexOLD..html",
+		"/home/nico/TEST_WP/index.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/PLACE_LUDIQUE.sublime-project",
+		"/home/nico/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/nico/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/nico/WSK_PLACE_LUDIQUE/node_modules/progress/Makefile",
+		"/home/nico/WSK_PLACE_LUDIQUE/dist/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/acitivite.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/.travis.yml",
+		"/home/nico/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nav",
+			"flex",
+			"header",
+			"watch",
+			"header",
+			"sidebar",
+			"wow",
+			"found",
+			"js",
+			"serve",
+			"connect",
+			"service",
+			"worker",
+			"js",
+			"worker",
+			"footer",
+			"sass",
+			" {",
+			"footer",
+			"prénom",
+			"italic",
+			"ludomodal",
+			"Temps d'Acitivitée Périscolaire",
+			"im",
+			"tap5",
+			"\n        ",
+			"espaceur",
+			"bio",
+			"class",
+			".thml",
+			".hml",
+			".hmt",
+			".thtml",
+			"thtml",
+			"default",
+			"figure",
+			"\">\n",
+			"<!--",
+			"ul",
+			"<!--",
+			"ul",
+			"debut",
+			"span",
+			"\n        ",
+			"button",
+			"color",
+			"\n    ",
+			"premiere-ligne",
+			"activites",
+			"jeu",
+			"activites",
+			"div",
+			"activites",
+			"activite",
+			"div",
+			"ul",
+			"orange",
+			"4928x3264",
+			">\n",
+			"face",
+			"Cécile",
+			"td",
+			".form-lead {\n        font-weight: 200;\n        font-size: 1rem;\n        margin-bottom: 0.5rem;\n        margin-left: 0;\n        color: $vert-anis;\n    }\n    p.form-lead-in {\n        font-weight: 300;\n        font-size: 1.3rem;\n        margin-bottom: 0.5rem;\n        margin-left: 0;\n        color: $vert-anis;\n    }",
+			"mots",
+			" ;",
+			"large-8",
+			"large",
+			"8",
+			"large",
+			"e",
+			"large",
+			"                <div class=\"large-8 columns\">\n",
+			"large",
+			"3",
+			"apero",
+			"activ",
+			"activite",
+			"acitivite",
+			"<!",
+			"share",
+			"facebook",
+			"1rem",
+			"espaceur",
+			"<footer class=\"footer\">\n        <div class=\"row\">\n            <div class=\"small-12 columns\">\n                <p class=\"slogan\">Oxalis SCOP-SA – 410 829 477 00141</p>\n                <p class=\"copywrite\">5N Création © 2015</p>\n            </div>\n        </div>\n    </footer>",
+			"\n  ",
+			"myblock",
+			"block",
+			"block-grid3",
+			"block",
+			"small",
+			"grid",
+			"block",
+			"----------------------------------------------",
+			">\n",
+			"alt+shift+1",
+			"columns",
+			"split",
+			"home",
+			"social",
+			"my",
+			"mybloc",
+			"premi",
+			"premier",
+			"premiere",
+			"entreprise",
+			" +",
+			"\\s",
+			"mardi"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".html",
+			"html",
+			"1Erem",
+			"1rem",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 338.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.gulp_output":
+	{
+		"height": 189.0
+	},
+	"output.markdown":
+	{
+		"height": 122.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "5ncreation.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i",
+				"app/index.html"
+			],
+			[
+				"creati",
+				"app/sass/_creation.scss"
+			],
+			[
+				"main",
+				".tmp/scripts/main.js"
+			],
+			[
+				"gulp",
+				"gulpfile.babel.js"
+			],
+			[
+				"_ac",
+				"app/styles/_activites.scss"
+			],
+			[
+				"photo",
+				"app/photo.html"
+			],
+			[
+				"activi",
+				"app/activites.html"
+			],
+			[
+				"je",
+				"app/jeu_et_nous.html"
+			],
+			[
+				"en",
+				"app/envoie.php"
+			],
+			[
+				"main.",
+				"app/styles/main.scss"
+			],
+			[
+				"jeu",
+				"app/jeu_et_nous.html"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"index.",
+				"Hover-master/index.html"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"mai",
+				"app/styles/main.scss"
+			],
+			[
+				"temp",
+				"app/template.html"
+			],
+			[
+				"tem",
+				"app/template.html"
+			],
+			[
+				"mains",
+				"app/styles/main.scss"
+			],
+			[
+				"feed",
+				"app/feedbackformprocess.php"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"pho",
+				"app/photo.html"
+			],
+			[
+				"phot",
+				"photos.html"
+			],
+			[
+				"contac",
+				"app/styles/_contacts.scss"
+			],
+			[
+				"",
+				"app/styles/main.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/5NCREATION/5ncreation.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 398.0,
+		"last_filter": "footer ",
+		"selected_items":
+		[
+			[
+				"footer ",
+				"footer"
+			],
+			[
+				"contact",
+				"contact-footer"
+			],
+			[
+				"claire",
+				"claire"
+			],
+			[
+				"share",
+				"pswp__share--facebook"
+			],
+			[
+				"faceboo",
+				"pswp__share--facebook"
+			],
+			[
+				"home2",
+				"home2"
+			],
+			[
+				"",
+				"$(EXAMPLES):"
+			],
+			[
+				"premi",
+				"premiere-ligne"
+			]
+		],
+		"width": 761.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

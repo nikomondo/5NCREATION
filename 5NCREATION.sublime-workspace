@@ -1,0 +1,927 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"hea",
+				"header	<header>"
+			],
+			[
+				"na",
+				"navigation	(index.html)"
+			],
+			[
+				"fix",
+				"fixNavigation"
+			],
+			[
+				"cla",
+				"class=\"list"
+			],
+			[
+				"scr",
+				"scripts"
+			],
+			[
+				"P",
+				"Person"
+			],
+			[
+				"p",
+				"pour"
+			],
+			[
+				"bla",
+				"black	(activites.html)"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"bio",
+				"biographie"
+			],
+			[
+				"plac",
+				"placeludique@gmail"
+			],
+			[
+				"de",
+				"debut"
+			],
+			[
+				"ac",
+				"activites"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"vert",
+				"vert-anis"
+			],
+			[
+				"c",
+				"caption	Tag"
+			],
+			[
+				"per",
+				"personnage	(main.scss)"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"pale",
+				"placeludique@gmail"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ver",
+				"vert-anis"
+			],
+			[
+				"co",
+				"coi	counter-increment"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"a",
+				"article	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html class=\"no-js\">\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <title>5ncreation</title>\n    <meta name=\"description\" content=\"site web création graphique ecommerce\">\n    <meta name=\"author\" content=\"5Ncréation\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->\n    <!-- build:css styles/vendor.css -->\n    <link rel=\"stylesheet\" href=\"bower_components/wowjs/css/libs/animate.css\">\n    <link href=\"bower_components/fontawesome/css/font-awesome.min.css\" rel=\"stylesheet\">\n    <!-- bower:css -->\n    <!-- endbower -->\n    <!-- endbuild -->\n    <!-- build:css styles/main.css -->\n    <link rel=\"stylesheet\" href=\"styles/styles.css\">\n    <!-- Custom Fonts -->\n    <!-- endbuild -->\n    <link href=\"http://fonts.googleapis.com/css?family=Montserrat:400,700\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">\n    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>\n    <!-- build:js scripts/vendor/modernizr.js -->\n    <script src=\"bower_components/modernizr/modernizr.js\"></script>\n    <!-- endbuild -->\n</head>\n\n<body id=\"page-top\" class=\"index\">\n    <!--[if lt IE 8]>\n        <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\n        <![endif]-->\n    <!-- Navigation -->\n    <nav class=\"navbar navbar-inverse navbar-fixed-top\">\n        <div class=\"container\">\n            <!-- Brand and toggle get grouped for better mobile display -->\n            <div class=\"navbar-header page-scroll\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n                <a href=\"#page-top\"><img src=\"images/logo-5n-blanc.png\" alt=\"5ncreation\"></a>\n            </div>\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li class=\"hidden\">\n                        <a href=\"#page-top\"></a>\n                    </li>\n                    <li class=\"page-scroll\">\n                        <a href=\"#services\">Services</a>\n                    </li>\n                    <li class=\"page-scroll\">\n                        <a href=\"#offres\">Offre</a>\n                    </li>\n                    <li class=\"page-scroll\">\n                        <a href=\"#portfolio\">Portfolio</a>\n                    </li>\n                    <li class=\"page-scroll\">\n                        <a href=\"#contact\">Contact</a>\n                    </li>\n                </ul>\n            </div>\n            <!-- /.navbar-collapse -->\n        </div>\n        <!-- /.container-fluid -->\n    </nav>\n    <!-- Header -->\n    <header>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-12\">\n                    <div class=\"intro-text animated slideInLeft\">\n                        <span class=\"name\">Créons ensemble, le site qui vous ressemble</span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </header>\n    <!-- SECTION SERVICES -->\n    <section id=\"services\" class=\"services-section\">\n        <div class=\"container \">\n            <div class=\"row \">\n                <div class=\"col-lg-12\">\n                    <div id=\"bandeau\" class=\"wow slideInRight\">\n                        <p class=\"hidden-xs\">Votre site web, avec\n                            <im> vous </im> et pour\n                            <im> vous </im>\n                        </p>\n                    </div>\n                    <div class=\"row \">\n                        <ul>\n                            <li class=\"stretch-container wow slideInLeft \">\n                                <div class='stretch-full gris '>\n                                    <p>\n                                        Les technologies innovantes au service de vos idées.\n                                    </p>\n                                    <h2>Des technologies ciblées</h2>\n                                    <img src=\"images/ORDI.png\" alt=\"ordinateur\">\n                                    <p>\n                                        Votre site s'adapte à tous les appareils : téléphone, tablette , ordinateur.\n                                    </p>\n                                </div>\n                                <li class=\"stretch-container\">\n                                    <div class='stretch-full'>\n                                        <p>Nous créons votre charte graphique.</p>\n                                        <h2>Un graphisme unique</h2>\n                                        <img src=\"images/COEUR.png\" alt=\"coeur\">\n                                        <p>Votre logo, votre site, vos flyers, vos cartes de visites reflètent vos valeurs.</p>\n                                    </div>\n                                </li>\n                                <li class=\"stretch-container wow slideInRight\">\n                                    <div class='stretch-full gris'>\n                                        <p>Nos tarifs sont raisonnables. Vous serez surpris.</p>\n                                        <h2>Des prix attractifs</h2>\n                                        <img src=\"images/EURO.png\" alt=\"euro\">\n                                        <p>Notre offre spéciale TPE permet d'étaler les paiements. Profitez-en!</p>\n                                    </div>\n                                </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n        </div>\n    </section>\n    <!-- SECTION offres -->\n    <section id=\"offres\" class=\"offres-section\">\n        <div class=\"container \">\n            <div class=\"row \">\n                <div class=\"col-lg-12\">\n                    <div id=\"bandeau\">\n                        <p class=\"hidden-xs wow slideInRight\">Faites\n                            <im>décoller</im> votre activité avec une offre conçue pour\n                            <im>vous</im>.</p>\n                    </div>\n                    <div class=\"row \">\n                        <ul>\n                            <li class=\"stretch-container wow rotateInDownRight\" data-wow-duration=\"1s\" data-wow-offset=\"10\">\n                                <p class=\"rotate\">Mon pack'</p>\n                                <p class=\"translate\">com</p>\n                                <div class=\"stretch-offset\">\n                                    <p><em><im>Vous vous lancez? </im></em></p>\n                                    <p>Il vous faut\n                                        <im>un site vitrine </im>qui vous ressemble à un\n                                        <p><em>prix attractif</em>.</p>\n                                        <p>Nous créons votre identité graphique.\n                                            <im>Logo, site web, carte de visites, flyers</im>.\n                                            <p>Sur devis. </p>\n                                            <p><em>A partir de 899€.</em></p>\n                                </div>\n                            </li>\n                            <li class=\"stretch-container wow rotateInDownRight\">\n                                <p class=\"rotate\">Mon Business'</p>\n                                <p class=\"translate\">pack</p>\n                                <div class=\"stretch-offset gris\">\n                                    <p><em><im>Vous souhaitez vendre en ligne ?</im></em></p>\n                                    <p> <em>Faites décoller votre acitivité !</em></p>\n                                    <p> Nous créons votre\n                                        <im>site e-business</im> sécurisé.</p>\n                                    <p>Consultez nous !</p>\n                                    <p>Sur devis. </p>\n                                    <p><em>A partir de 1999 €.</em></p>\n                                </div>\n                            </li>\n                            <li class=\"stretch-container wow rotateInUpLeft\">\n                                <p class=\"rotate\">Mon custom'</p>\n                                <p class=\"translate\">pack</p>\n                                <div class=\"stretch-offset\">\n                                    <p>\n                                        <im><em>Vous voulez donner un coup de jeune à votre image sur le web ?</em></im>\n                                    </p>\n                                    <p>Moderniser votre logo ?</p>\n                                    <p>Optimiser votre présence sur les réseaux sociaux ? </p>\n                                    <p>\n                                        <im>Consultez-nous ! </im>\n                                    </p>\n                                    <p>Nous vous enverrons un devis dans les meilleurs délais.</p>\n                                </div>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </section>\n    <!-- Portfolio Grid Section -->\n    <section id=\"portfolio\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-12 text-center\">\n                    <h1>Nos Dernières Réalisations</h1>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-sm-4 portfolio-item\">\n                    <a href=\"#placeludiqueModal\" class=\"portfolio-link\" data-toggle=\"modal\">\n                        <div class=\"caption\">\n                            <div class=\"caption-content\">\n                                <i class=\"fa fa-search-plus fa-3x\"></i>\n                            </div>\n                        </div>\n                        <img src=\"images/place-ludique.PNG\" class=\"img-responsive\" alt=\"\">\n                    </a>\n                </div>\n                <div class=\"col-sm-4 portfolio-item\">\n                    <a href=\"#aipenModal\" class=\"portfolio-link\" data-toggle=\"modal\">\n                        <div class=\"caption\">\n                            <div class=\"caption-content\">\n                                <i class=\"fa fa-search-plus fa-3x\"></i>\n                            </div>\n                        </div>\n                        <img src=\"images/aipen.jpg\" class=\"img-responsive\" alt=\"\">\n                    </a>\n                </div>\n                <div class=\"col-sm-4 portfolio-item\">\n                    <a href=\"#lesfillesModal\" class=\"portfolio-link\" data-toggle=\"modal\">\n                        <div class=\"caption\">\n                            <div class=\"caption-content\">\n                                <i class=\"fa fa-search-plus fa-3x\"></i>\n                            </div>\n                        </div>\n                        <img src=\"images/les-filles.PNG\" class=\"img-responsive\" alt=\"\">\n                    </a>\n                </div>\n    </section>\n    <!-- Contact Section -->\n    <section id=\"contact\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-12 text-center\">\n                    <h2>Contactez-nous!</h2>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-lg-8 col-lg-offset-2\">\n                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->\n                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->\n                    <form name=\"sentMessage\" id=\"contactForm\" novalidate>\n                        <div class=\"row control-group\">\n                            <div class=\"form-group col-xs-12 floating-label-form-group controls\">\n                                <label>Nom</label>\n                                <input type=\"text\" class=\"form-control\" placeholder=\"Nom\" id=\"name\" required data-validation-required-message=\"Entrer un nom SVP\">\n                                <p class=\"help-block text-danger\"></p>\n                            </div>\n                        </div>\n                        <div class=\"row control-group\">\n                            <div class=\"form-group col-xs-12 floating-label-form-group controls\">\n                                <label>Adresse mail</label>\n                                <input type=\"email\" class=\"form-control\" placeholder=\"Adresse mail\" id=\"email\" required data-validation-required-message=\"Entrez une adresse mail SVP\">\n                                <p class=\"help-block text-danger\"></p>\n                            </div>\n                        </div>\n                        <div class=\"row control-group\">\n                            <div class=\"form-group col-xs-12 floating-label-form-group controls\">\n                                <label>Téléphone</label>\n                                <input type=\"tel\" class=\"form-control\" placeholder=\"Téléphone\" id=\"phone\">\n                                <p class=\"help-block text-danger\"></p>\n                            </div>\n                        </div>\n                        <div class=\"row control-group\">\n                            <div class=\"form-group col-xs-12 floating-label-form-group controls\">\n                                <label>Message</label>\n                                <textarea rows=\"2\" class=\"form-control\" placeholder=\"Message\" id=\"message\" required data-validation-required-message=\"Entrez un message SVP.\"></textarea>\n                                <p class=\"help-block text-danger\"></p>\n                            </div>\n                        </div>\n                        <br>\n                        <div id=\"success\"></div>\n                        <div class=\"row\">\n                            <div class=\"form-group col-xs-12\">\n                                <button type=\"submit\" class=\"btn  btn-lg\">Envoyer</button>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </section>\n    <!-- Footer -->\n    <footer class=\"text-center\">\n        <div class=\"footer-above\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"footer-col col-md-4\">\n                        <p>5N CREATION – N. BASTIEN</p>\n                        <p>49 rue Edgar Quinet 86170 Neuville de Poitou</p>\n                        <p>Responsable de la publication : N. BASTIEN</p>\n                        <p>nadia@5ncreation.com</p>\n                        <p>07 83 81 54 15</p>\n                    </div>\n                    <div class=\"footer-col col-md-4\">\n                        <p>Hébergeur :GANDI SAS 63-65 boulevard Massena à Paris (75013) FRANCE, (num 423 093 459 RCS PARIS)</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </footer>\n    <!-- Portfolio Modals -->\n    <div class=\"portfolio-modal modal fade\" id=\"placeludiqueModal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n        <div class=\"modal-content\">\n            <div class=\"close-modal\" data-dismiss=\"modal\">\n                <div class=\"lr\">\n                    <div class=\"rl\">\n                    </div>\n                </div>\n            </div>\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-lg-8 col-lg-offset-2\">\n                        <div class=\"modal-body\">\n                            <h2>Place ludique</h2>\n                            <hr class=\"star-primary\">\n                            <a href=\"http://placeludique.com\"><img src=\"images/placeludique.png\" class=\"img-responsive img-centered\" alt=\" place ludique \"></a>\n                            <p>Réalisation logo et site internet .</p>\n                            <ul class=\"list-inline item-details\">\n                                <li>Client:\n                                    <strong> Place Ludique</a>\n                        </strong>\n                                </li>\n                                <li>Date:\n                                    <strong><a href=\"http://placeludique.com\">novembre 2015</a>\n                        </strong>\n                                </li>\n                                <li>Service:\n                                    <strong><a href=\"http://5ncreation.com\">Logo , cartes de visites, flyers , site internet</a>\n                        </strong>\n                                </li>\n                            </ul>\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"portfolio-modal modal fade\" id=\"aipenModal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n        <div class=\"modal-content\">\n            <div class=\"close-modal\" data-dismiss=\"modal\">\n                <div class=\"lr\">\n                    <div class=\"rl\">\n                    </div>\n                </div>\n            </div>\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-lg-8 col-lg-offset-2\">\n                        <div class=\"modal-body\">\n                            <h2>Association Indépendantes des Parents d'Elève du Neuvillois</h2>\n                            <hr class=\"star-primary\">\n                            <a href=\"http://asso-aipen.fr\"><img src=\"images/asso-aipen.png\" class=\"img-responsive img-centered\" alt=\"\"></a>\n                            <p>Réalisation d'un nouveau log et refonte du site de l'association des parents d'élève de Neuville</p>\n                            <ul class=\"list-inline item-details\">\n                                <li>Client:\n                                    <strong><a href=\"http://asso-aipen.com\">AIPEN</a>\n                        </strong>\n                                </li>\n                                <li>Date:\n                                    <strong><a href=\"http://5ncreation.com\">juin 2015</a>\n                        </strong>\n                                </li>\n                                <li>Service:\n                                    <strong><a href=\"http://5ncreation.com\">Création logo , site internet</a>\n                        </strong>\n                                </li>\n                            </ul>\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"portfolio-modal modal fade\" id=\"lesfillesModal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n        <div class=\"modal-content\">\n            <div class=\"close-modal\" data-dismiss=\"modal\">\n                <div class=\"lr\">\n                    <div class=\"rl\">\n                    </div>\n                </div>\n            </div>\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-lg-8 col-lg-offset-2\">\n                        <div class=\"modal-body\">\n                            <h2>Les filles s'embobinent</h2>\n                            <hr class=\"star-primary\">\n                            <a href=\"http://lesfillessembobinent.com\">\n                                <img src=\"images/maquettelesfilles.jpg\" class=\"img-responsive img-centered\" alt=\"\">\n                            </a>\n                            <p>Site du magasin \"les filles s'embobinent</p>\n                            <ul class=\"list-inline item-details\">\n                                <li>Client:\n                                    <strong><a href=\"http://lesfillessembobinent.com\">les filles s'embobinent</a>\n                        </strong>\n                                </li>\n                                <li>Date:\n                                    <strong><a href=\"http://lesfillessembobinent.com\">janvier 2015</a>\n                        </strong>\n                                </li>\n                                <li>Service:\n                                    <strong><a href=\"http://lesfillessembobinent.com/\">site internet , boutique en ligne (en cours) </a>\n                        </strong>\n                                </li>\n                            </ul>\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <!-- build:js scripts/vendor.js -->\n    <!-- bower:js -->\n    <script src=\"bower_components/jquery/dist/jquery.min.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js\"></script>\n    <script src=\"bower_components/jquery.easing/js/jquery.easing.min.js\"></script>\n    <script src=\"bower_components/wowjs/dist/wow.min.js\"></script>\n    <!-- endbower -->\n    <!-- endbuild -->\n    <!-- build:js scripts/main.js -->\n    <!-- <script src=\"scripts/main.js\"></script> -->\n    <script src=\"scripts/classie.js\"></script>\n    <script src=\"scripts/cbpAnimatedHeader.js\"></script>\n    <!-- Contact Form JavaScript -->\n    <script src=\"scripts/jqBootstrapValidation.js\"></script>\n    <script src=\"scripts/contact_me.js\"></script>\n    <!-- Custom Theme JavaScript -->\n    <script src=\"scripts/freelancer.js\"></script>\n    <!-- endbuild -->\n    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n    <script>\n    (function(b, o, i, l, e, r) {\n        b.GoogleAnalyticsObject = l;\n        b[l] || (b[l] =\n            function() {\n                (b[l].q = b[l].q || []).push(arguments)\n            });\n        b[l].l = +new Date;\n        e = o.createElement(i);\n        r = o.getElementsByTagName(i)[0];\n        e.src = '//www.google-analytics.com/analytics.js';\n        r.parentNode.insertBefore(e, r)\n    }(window, document, 'script', 'ga'));\n    ga('create', 'UA-XXXXX-X');\n    ga('send', 'pageview');\n    p / script >\n        < /body> < /html >\n",
+			"file": "app/index.html",
+			"file_size": 23062,
+			"file_write_time": 131017521968042310,
+			"settings":
+			{
+				"buffer_size": 23014,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git t",
+				"Git: Show Tags"
+			],
+			[
+				"emmet: w",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"gitq",
+				"Git: Quick Commit"
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
+			[
+				"sass",
+				"Build With: SASS"
+			],
+			[
+				"gul",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"gulp",
+				"Set Syntax: Gulp results"
+			],
+			[
+				"gitbn",
+				"Git: New Branch"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"emmet ",
+				"Emmet: Remove Tag"
+			],
+			[
+				"emmet go",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"vie",
+				"View: Toggle Menu"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Packac",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Sass",
+				"SassBeautify"
+			],
+			[
+				"Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pretif",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"zfgr",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"git bran",
+				"Git: New Branch"
+			],
+			[
+				"paca insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Pac instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Paca ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git stau",
+				"Git: Status"
+			]
+		],
+		"width": 599.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sys",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nico/5NCREATION/app"
+	],
+	"file_history":
+	[
+		"/home/nico/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/nico/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/nico/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nico/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/nico/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/nico/5NCREATION/app/index.html",
+		"/home/nico/5NCREATION/app/sass/knacss.scss",
+		"/home/nico/5NCREATION/app/sass/_creation.scss",
+		"/home/nico/MENU/index.html",
+		"/home/nico/5NCREATION/gulpfile.babel.js",
+		"/home/nico/5NCREATION/.tmp/scripts/main.js",
+		"/home/nico/5NCREATION/app/scripts/main.js",
+		"/home/nico/5NCREATION/app/service-worker.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/activites.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/index.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/gulpfile.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/main.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_contacts.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/template.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/photo.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/remerciement.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/jeu_et_nous.html",
+		"/home/nico/RAILS/test.rb",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_activites.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_activites.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/contact.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/envoie.php",
+		"/var/www/html/placeludique/envoie.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/main.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/Hover-master/index.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/index2.html",
+		"/home/nico/.config/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+		"/home/nico/RECUP/index.html",
+		"/home/nico/FORM/feedbackform.htm",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/feedbackformprocess.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/node_modules/gulp-util/lib/isNull.js",
+		"/home/nico/FORM/feedbackformprocess.php",
+		"/home/nico/FORM/feedbackformvalidation.js",
+		"/home/nico/FORM/feedbackforminstall.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/photoswipe.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/photos.html",
+		"/home/nico/FOUNDATION/foundation_icons_social/demo.html",
+		"/home/nico/FORM/mail.php",
+		"/home/nico/ESSAIS/test.rb",
+		"/home/nico/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+		"/home/nico/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/nico/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+		"/home/nico/WSK_PLACE_LUDIQUE/.tmp/styles/default-skin/default-skin.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/photos.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/photoswipe-ui-default.min.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/lg-autoplay.min.js",
+		"/home/nico/.config/sublime-text-3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/home/nico/WSK_PLACE_LUDIQUE/.tmp/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/indexOLD..html",
+		"/home/nico/TEST_WP/index.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/PLACE_LUDIQUE.sublime-project",
+		"/home/nico/WSK_PLACE_LUDIQUE/node_modules/progress/Makefile",
+		"/home/nico/WSK_PLACE_LUDIQUE/dist/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/acitivite.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/.travis.yml",
+		"/home/nico/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"symbol",
+			"goto symbol",
+			"goto",
+			"nav",
+			"flex",
+			"header",
+			"watch",
+			"header",
+			"sidebar",
+			"wow",
+			"found",
+			"js",
+			"serve",
+			"connect",
+			"service",
+			"worker",
+			"js",
+			"worker",
+			"footer",
+			"sass",
+			" {",
+			"footer",
+			"prénom",
+			"italic",
+			"ludomodal",
+			"Temps d'Acitivitée Périscolaire",
+			"im",
+			"tap5",
+			"\n        ",
+			"espaceur",
+			"bio",
+			"class",
+			".thml",
+			".hml",
+			".hmt",
+			".thtml",
+			"thtml",
+			"default",
+			"figure",
+			"\">\n",
+			"<!--",
+			"ul",
+			"<!--",
+			"ul",
+			"debut",
+			"span",
+			"\n        ",
+			"button",
+			"color",
+			"\n    ",
+			"premiere-ligne",
+			"activites",
+			"jeu",
+			"activites",
+			"div",
+			"activites",
+			"activite",
+			"div",
+			"ul",
+			"orange",
+			"4928x3264",
+			">\n",
+			"face",
+			"Cécile",
+			"td",
+			".form-lead {\n        font-weight: 200;\n        font-size: 1rem;\n        margin-bottom: 0.5rem;\n        margin-left: 0;\n        color: $vert-anis;\n    }\n    p.form-lead-in {\n        font-weight: 300;\n        font-size: 1.3rem;\n        margin-bottom: 0.5rem;\n        margin-left: 0;\n        color: $vert-anis;\n    }",
+			"mots",
+			" ;",
+			"large-8",
+			"large",
+			"8",
+			"large",
+			"e",
+			"large",
+			"                <div class=\"large-8 columns\">\n",
+			"large",
+			"3",
+			"apero",
+			"activ",
+			"activite",
+			"acitivite",
+			"<!",
+			"share",
+			"facebook",
+			"1rem",
+			"espaceur",
+			"<footer class=\"footer\">\n        <div class=\"row\">\n            <div class=\"small-12 columns\">\n                <p class=\"slogan\">Oxalis SCOP-SA – 410 829 477 00141</p>\n                <p class=\"copywrite\">5N Création © 2015</p>\n            </div>\n        </div>\n    </footer>",
+			"\n  ",
+			"myblock",
+			"block",
+			"block-grid3",
+			"block",
+			"small",
+			"grid",
+			"block",
+			"----------------------------------------------",
+			">\n",
+			"alt+shift+1",
+			"columns",
+			"split",
+			"home",
+			"social",
+			"my",
+			"mybloc",
+			"premi",
+			"premier",
+			"premiere",
+			"entreprise",
+			" +",
+			"\\s",
+			"mardi"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".html",
+			"html",
+			"1Erem",
+			"1rem",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 338.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.gulp_output":
+	{
+		"height": 189.0
+	},
+	"output.markdown":
+	{
+		"height": 122.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "5NCREATION.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"i",
+				"app/index.html"
+			],
+			[
+				"creati",
+				"app/sass/_creation.scss"
+			],
+			[
+				"main",
+				".tmp/scripts/main.js"
+			],
+			[
+				"gulp",
+				"gulpfile.babel.js"
+			],
+			[
+				"_ac",
+				"app/styles/_activites.scss"
+			],
+			[
+				"photo",
+				"app/photo.html"
+			],
+			[
+				"activi",
+				"app/activites.html"
+			],
+			[
+				"je",
+				"app/jeu_et_nous.html"
+			],
+			[
+				"en",
+				"app/envoie.php"
+			],
+			[
+				"main.",
+				"app/styles/main.scss"
+			],
+			[
+				"jeu",
+				"app/jeu_et_nous.html"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"index.",
+				"Hover-master/index.html"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"mai",
+				"app/styles/main.scss"
+			],
+			[
+				"temp",
+				"app/template.html"
+			],
+			[
+				"tem",
+				"app/template.html"
+			],
+			[
+				"mains",
+				"app/styles/main.scss"
+			],
+			[
+				"feed",
+				"app/feedbackformprocess.php"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"pho",
+				"app/photo.html"
+			],
+			[
+				"phot",
+				"photos.html"
+			],
+			[
+				"contac",
+				"app/styles/_contacts.scss"
+			],
+			[
+				"",
+				"app/styles/main.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/5NCREATION/5ncreation.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 74.0,
+		"last_filter": "carouss",
+		"selected_items":
+		[
+			[
+				"carouss",
+				"carousel-indicators"
+			],
+			[
+				"",
+				"Alert"
+			],
+			[
+				"footer ",
+				"footer"
+			],
+			[
+				"contact",
+				"contact-footer"
+			],
+			[
+				"claire",
+				"claire"
+			],
+			[
+				"share",
+				"pswp__share--facebook"
+			],
+			[
+				"faceboo",
+				"pswp__share--facebook"
+			],
+			[
+				"home2",
+				"home2"
+			],
+			[
+				"premi",
+				"premiere-ligne"
+			]
+		],
+		"width": 398.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
